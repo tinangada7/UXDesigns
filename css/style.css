@@ -5,6 +5,7 @@ html,body
 body
 {
     padding-top: 100px;
+    font-family: 'Open Sans', sans-serif;
 }
 .navbar-toggler
 {
@@ -41,6 +42,8 @@ body
     font-size: 14px;
     font-weight: 500;
     color: black;
+    font-weight: bold;
+
 }
 .navbar-light
 {
