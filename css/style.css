@@ -4,7 +4,6 @@ html,body
 }
 body
 {
-    font-family: 'Poppins', sans-serif;
     padding-top: 100px;
 }
 .navbar-toggler
@@ -54,6 +53,23 @@ body
 }
 .nav-link:hover
 {
-    color: deeppink;
+    color: #de0f66;
     transition: 0.3s;
+}
+.hero
+{
+    width: 400px;
+}
+.main_body
+{
+    font-size: 40px;
+    font-weight: 600;
+}
+.main_heading
+{
+    font-size: 22px;
+}
+.main_heading_span
+{
+    color: #de0f66;
 }
