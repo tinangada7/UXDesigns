@@ -5,7 +5,7 @@ html,body
 body
 {
     padding-top: 100px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .navbar-toggler
 {
@@ -75,4 +75,12 @@ body
 .main_heading_span
 {
     color: #de0f66;
+}
+.bg-light
+{
+    background-color: #ffffff !important;
+}
+.main_hero
+{
+    padding: 200px 0px 0px 0px;
 }

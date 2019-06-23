@@ -1,24 +1,90 @@
-/* On screens that are 992px wide or less, the background color is blue */
-@media screen and (max-width: 992px) 
-{
-  .navbar-padding
-  {
+@media (max-width: 575.98px) 
+{ 
+    .navbar-padding
+    {
         padding: 20px 20px 0px 20px;
-  }
+    }
+    .main_hero
+    {
+        padding: 80px 0px 0px 0px;
+    }
+    .main_body
+    {
+        font-size: 32px;
+    }
+    .main_heading
+    {
+        font-size: 22px;
+    }
+    .hero
+    {
+        width: 345px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    .navbar-padding
+    {
+        padding: 20px 20px 0px 20px;
+    }
+    .navbar-padding
+    {
+        padding: 20px 20px 0px 20px;
+    }
+    .main_hero
+    {
+        padding: 80px 0px 0px 0px;
+    }
+    .main_body
+    {
+        font-size: 40px;
+    }
+    .main_heading
+    {
+        font-size: 22px;
+    }
 }
 
-/* On screens that are 600px wide or less, the background color is olive */
-@media screen and (max-width: 1500px) 
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    .main_hero
+    {
+        padding: 180px 0px 0px 0px;
+    }
+    .main_body
+    {
+        font-size: 35px;
+    }
+    .main_heading
+    {
+        font-size: 22px;
+    }
+    .navbar-padding
+    {
+        padding: 20px 20px 0px 20px;
+    }
+    .container 
+    {
+        max-width: 900px;
+        padding-right: 40px;
+    }   
+    .hero
+    {
+        width: 300px;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px)
 {
     .navbar-padding
     {
         padding: 20px 20px 0px 20px;
     }
 }
-@media screen and (min-width: 1500px) 
+@media (min-width: 1200px)
 {
     .navbar-padding
     {
-        padding: 20px 150px 0px 150px;
+        padding: 20px 20px 0px 20px;
     }
 }
